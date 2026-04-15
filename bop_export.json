@@ -1,0 +1,26 @@
+{
+  "cars": [
+    {"acCarId": 1, "driver": "function: 0xff", "model": "function: 0xff", "bestLap": 0, "ballastKg": 30, "restrictorPct": 3},
+    {"acCarId": 2, "driver": "function: 0xff", "model": "function: 0xff", "bestLap": 0, "ballastKg": 0, "restrictorPct": 0},
+    {"acCarId": 3, "driver": "function: 0xff", "model": "function: 0xff", "bestLap": 0, "ballastKg": 0, "restrictorPct": 0},
+    {"acCarId": 4, "driver": "function: 0xff", "model": "function: 0xff", "bestLap": 0, "ballastKg": 0, "restrictorPct": 0},
+    {"acCarId": 5, "driver": "function: 0xff", "model": "function: 0xff", "bestLap": 0, "ballastKg": 0, "restrictorPct": 0},
+    {"acCarId": 6, "driver": "function: 0xff", "model": "function: 0xff", "bestLap": 0, "ballastKg": 0, "restrictorPct": 0},
+    {"acCarId": 7, "driver": "function: 0xff", "model": "function: 0xff", "bestLap": 0, "ballastKg": 0, "restrictorPct": 0},
+    {"acCarId": 8, "driver": "function: 0xff", "model": "function: 0xff", "bestLap": 0, "ballastKg": 0, "restrictorPct": 0},
+    {"acCarId": 9, "driver": "function: 0xff", "model": "function: 0xff", "bestLap": 0, "ballastKg": 0, "restrictorPct": 0},
+    {"acCarId": 10, "driver": "function: 0xff", "model": "function: 0xff", "bestLap": 0, "ballastKg": 0, "restrictorPct": 0},
+    {"acCarId": 11, "driver": "function: 0xff", "model": "function: 0xff", "bestLap": 0, "ballastKg": 0, "restrictorPct": 0},
+    {"acCarId": 12, "driver": "function: 0xff", "model": "function: 0xff", "bestLap": 0, "ballastKg": 0, "restrictorPct": 0},
+    {"acCarId": 13, "driver": "function: 0xff", "model": "function: 0xff", "bestLap": 0, "ballastKg": 100, "restrictorPct": 0},
+    {"acCarId": 14, "driver": "function: 0xff", "model": "function: 0xff", "bestLap": 0, "ballastKg": 100, "restrictorPct": 0},
+    {"acCarId": 15, "driver": "function: 0xff", "model": "function: 0xff", "bestLap": 0, "ballastKg": 100, "restrictorPct": 0},
+    {"acCarId": 16, "driver": "function: 0xff", "model": "function: 0xff", "bestLap": 0, "ballastKg": 100, "restrictorPct": 0},
+    {"acCarId": 17, "driver": "function: 0xff", "model": "function: 0xff", "bestLap": 0, "ballastKg": 100, "restrictorPct": 0},
+    {"acCarId": 18, "driver": "function: 0xff", "model": "function: 0xff", "bestLap": 0, "ballastKg": 100, "restrictorPct": 0},
+    {"acCarId": 19, "driver": "function: 0xff", "model": "function: 0xff", "bestLap": 0, "ballastKg": 100, "restrictorPct": 0},
+    {"acCarId": 20, "driver": "function: 0xff", "model": "function: 0xff", "bestLap": 0, "ballastKg": 100, "restrictorPct": 0},
+    {"acCarId": 21, "driver": "function: 0xff", "model": "function: 0xff", "bestLap": 0, "ballastKg": 100, "restrictorPct": 0},
+    {"acCarId": 22, "driver": "function: 0xff", "model": "function: 0xff", "bestLap": 0, "ballastKg": 100, "restrictorPct": 0}
+  ]
+}
