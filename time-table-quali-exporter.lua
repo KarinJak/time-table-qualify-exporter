@@ -59,7 +59,29 @@ local function executeSaveSafe()
         end
     end
 
-    local jsonStr = '{\n  "cars": [\n' .. table.concat(exportedCars, ",\n") .. '\n  ]\n}'
+    local rawTrackName = "Unknown Track"
+    if type(ac.getTrackName) == "function" then
+        local tName = ac.getTrackName()
+        if tName and tName ~= "" then rawTrackName = tName end
+    end
+    if rawTrackName == "Unknown Track" and type(ac.getTrackID) == "function" then
+        local tId = ac.getTrackID()
+        if tId and tId ~= "" then rawTrackName = tId end
+    end
+    
+    local rawTrackConfig = ""
+    if type(ac.getTrackLayout) == "function" then
+        local tLayout = ac.getTrackLayout()
+        if tLayout and tLayout ~= "" then rawTrackConfig = tLayout end
+    elseif type(ac.getTrackConfiguration) == "function" then
+        local tConfig = ac.getTrackConfiguration()
+        if tConfig and tConfig ~= "" then rawTrackConfig = tConfig end
+    end
+
+    local trackNameStr = tostring(rawTrackName):gsub('"', '\\"')
+    local trackConfigStr = tostring(rawTrackConfig):gsub('"', '\\"')
+
+    local jsonStr = '{\n  "TrackName": "' .. trackNameStr .. '",\n  "TrackConfig": "' .. trackConfigStr .. '",\n  "cars": [\n' .. table.concat(exportedCars, ",\n") .. '\n  ]\n}'
 
     local file = io.open(SAVE_PATH, 'w')
     if file then
